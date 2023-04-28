@@ -1,8 +1,6 @@
 ## Commands executed for setup
 
 1. npm init -y
-2. npm install --save-dev jest
+2. npm install --save-dev jest eslint eslint-plugin-jest eslint-config-prettier babel-jest @babel/core @babel/preset-env
 3. npx jest --init
-4. npm i --save-dev eslint eslint-plugin-jest
-5. npm init @eslint/config
-6. npm install --save-dev eslint-config-prettier
+4. npm init @eslint/config
