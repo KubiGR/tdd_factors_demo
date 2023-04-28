@@ -5,9 +5,8 @@ function getFactors(number) {
   let divisor = 2;
 
   while (number > 1) {
-    while (number % divisor === 0) {
+    for (; number % divisor === 0; number /= divisor) {
       factors.push(divisor);
-      number /= divisor;
     }
     divisor++;
   }
