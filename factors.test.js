@@ -45,4 +45,9 @@ describe("factors", () => {
     const factors = getFactors(9);
     expect(factors).toEqual([3, 3]);
   });
+
+  it("should return [2, 3, 3, 5, 11, 13, 13] when getting factors of 2 * 3 * 3 * 5 * 11 * 13 * 13", () => {
+    const factors = getFactors(2 * 3 * 3 * 5 * 11 * 13 * 13);
+    expect(factors).toEqual([2, 3, 3, 5, 11, 13, 13]);
+  });
 });
