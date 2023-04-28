@@ -1,4 +1,4 @@
-import { getFactors } from "./factors";
+const { getFactors } = require("./factors.cjs");
 
 describe("factors", () => {
   it("should return 1 when getting factors of 1", () => {
