@@ -1,4 +1,4 @@
-function getFactors(number) {
+export function getFactors(number) {
   if (number === 1) return [1];
 
   const factors = [];
@@ -11,7 +11,3 @@ function getFactors(number) {
 
   return factors;
 }
-
-module.exports = {
-  getFactors,
-};
