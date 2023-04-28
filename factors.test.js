@@ -50,4 +50,9 @@ describe("factors", () => {
     const factors = getFactors(2 * 3 * 3 * 5 * 11 * 13 * 13);
     expect(factors).toEqual([2, 3, 3, 5, 11, 13, 13]);
   });
+
+  it("should return [] when getting factors of -9", () => {
+    const factors = getFactors(-9);
+    expect(factors).toEqual([]);
+  });
 });
