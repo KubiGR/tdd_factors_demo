@@ -12,10 +12,6 @@ function getFactors(number) {
     divisor++;
   }
 
-  if (number > 1) {
-    factors.push(number);
-  }
-
   return factors;
 }
 
