@@ -1,9 +1,9 @@
 import { getFactors } from "./factors";
 
 describe("factors", () => {
-  it("should return [1] when getting factors of 1", () => {
+  it("should return [] when getting factors of 1", () => {
     const factors = getFactors(1);
-    expect(factors).toEqual([1]);
+    expect(factors).toEqual([]);
   });
 
   it("should return [2] when getting factors of 2", () => {

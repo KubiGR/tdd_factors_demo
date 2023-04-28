@@ -1,6 +1,4 @@
 export function getFactors(number) {
-  if (number === 1) return [1];
-
   const factors = [];
 
   for (let divisor = 2; number > 1; divisor++) {
