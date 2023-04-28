@@ -2,13 +2,11 @@ function getFactors(number) {
   if (number === 1) return [1];
 
   const factors = [];
-  let divisor = 2;
 
-  while (number > 1) {
+  for (let divisor = 2; number > 1; divisor++) {
     for (; number % divisor === 0; number /= divisor) {
       factors.push(divisor);
     }
-    divisor++;
   }
 
   return factors;
