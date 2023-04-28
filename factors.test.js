@@ -10,4 +10,9 @@ describe("factors", () => {
     const factors = getFactors(2);
     expect(factors).toEqual([2]);
   });
+
+  it("should return [3] when getting factors of 3", () => {
+    const factors = getFactors(3);
+    expect(factors).toEqual([3]);
+  });
 });
