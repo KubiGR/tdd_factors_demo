@@ -16,7 +16,7 @@ describe("factors", () => {
     expect(factors).toEqual([3]);
   });
 
-  it("should return [2,2] when getting factors of 4", () => {
+  it("should return [2, 2] when getting factors of 4", () => {
     const factors = getFactors(4);
     expect(factors).toEqual([2, 2]);
   });
@@ -39,5 +39,10 @@ describe("factors", () => {
   it("should return [2, 2, 2] when getting factors of 8", () => {
     const factors = getFactors(8);
     expect(factors).toEqual([2, 2, 2]);
+  });
+
+  it("should return [3, 3] when getting factors of 9", () => {
+    const factors = getFactors(9);
+    expect(factors).toEqual([3, 3]);
   });
 });
